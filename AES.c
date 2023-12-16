@@ -304,7 +304,7 @@ void Dec_KeySchedule(byte Key[16], byte rk[11][16])
  * RK : round keys
  * CT : ciphertext
  *****************************************************************************************/
-void AES_Encrypt(byte* PT, byte RK[11][16], byte* CT) //평문, 키, 결과값을 저장할 암호문을 입력받음
+void AES_Encrypt(byte* PT, byte RK[11][16], byte* CT)
 {
 	byte state[16];
 
