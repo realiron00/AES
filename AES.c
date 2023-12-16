@@ -1,7 +1,3 @@
-#include <stdio.h>
-#include <stdint.h>
-#include <string.h>
-
 #include "AES.h"
 
 typedef unsigned char byte; //바이트 단위로 가져옴
